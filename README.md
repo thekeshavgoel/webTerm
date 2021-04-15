@@ -38,7 +38,7 @@ But FYI,
 >node server.js
 
 
-**Voila! You have a web server running at: http://localhost:8000/ **
+** Voila! You have a web server running at: http://localhost:8000/ **
 
 
 ## Sources
