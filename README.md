@@ -15,7 +15,7 @@ If you have no ssh server running, you can spin and use docker container as foll
 - In the terminal, go this repo and build a Docker Image (named sshdubuntu) by:
 >docker build -t sshdubuntu .
 
--Spin a Docker container of sshdubuntu
+- Spin a Docker container of sshdubuntu
 >docker run -it -p 22:22 sshdubuntu
 
 Now you have a ssh server running on local, the configuration is already checked in the server.js, you can move to next step - running web server.
