@@ -10,9 +10,9 @@ If you have a ssh server ready to connect to, update the server config in the se
 
 If you have no ssh server running, you can spin and use docker container as follows:
 
--Install Docker if not already
+- Install Docker if not already
 
--In the terminal, go this repo and build a Docker Image (named sshdubuntu) by:
+- In the terminal, go this repo and build a Docker Image (named sshdubuntu) by:
 >docker build -t sshdubuntu .
 
 -Spin a Docker container of sshdubuntu
@@ -20,21 +20,21 @@ If you have no ssh server running, you can spin and use docker container as foll
 
 Now you have a ssh server running on local, the configuration is already checked in the server.js, you can move to next step - running web server.
 But FYI,
--**Server Address**: *127.0.0.1*
--**Port**: *22*
--**Username**: *test*
--**Password**: *test*
+- **Server Address**: *127.0.0.1*
+- **Port**: *22*
+- **Username**: *test*
+- **Password**: *test*
 
 
 ### Install NodeJS and run web server
 
--Install NodeJS if not already.
+- Install NodeJS if not already.
 
--Install a few dependencies by running following:
+- Install a few dependencies by running following:
 
 >npm install express socket.io ssh2 xterm xterm-addon-fit
 
--Run the server
+- Run the server
 >node server.js
 
 
@@ -42,4 +42,4 @@ But FYI,
 
 
 ## Sources
--https://stackoverflow.com/questions/38689707/connecting-to-remote-ssh-server-via-node-js-html5-console
+- https://stackoverflow.com/questions/38689707/connecting-to-remote-ssh-server-via-node-js-html5-console
